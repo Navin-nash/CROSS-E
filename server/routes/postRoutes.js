@@ -23,10 +23,17 @@ router.route('/').get(async (req, res) => {
   }
 });
 
+cloudinary.api.ping((error, result) => {
+  if (error) console.error('Cloudinary Ping Error:', error);
+  else console.log('Cloudinary Ping Success:', result);
+});
+
+
 router.route('/').post(async (req, res) => {
   try {
     const { name, prompt, photo } = req.body;
     const photoUrl = await cloudinary.uploader.upload(photo);
+    console.log('Uploaded photo URL', photoUrl.url);
 
     const newPost = await Post.create({
       name,

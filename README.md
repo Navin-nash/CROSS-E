@@ -6,7 +6,7 @@
 
 -**You can use this tool to generate interactive,imaginative pictures and also post it to community so that others can view it.**
 
--**I have used Render to host my Web Service and Used AWS S3 cloud storage and AWS CloudFront to host my static website and for HTTPS**
+-**I have used Render to host my Web Service and Used Vercel to host my static website**
 
 ![Screenshot (128)](https://github.com/user-attachments/assets/d8d0441c-ced7-4e69-9ed9-1244d81e0162)
 

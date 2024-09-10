@@ -8,5 +8,7 @@
 
 -**I have used Render to host my Web Service and Used AWS S3 cloud storage and AWS CloudFront to host my static website and for HTTPS**
 
+![Screenshot (128)](https://github.com/user-attachments/assets/d8d0441c-ced7-4e69-9ed9-1244d81e0162)
 
 
+![Screenshot (127)](https://github.com/user-attachments/assets/f1453be3-0de6-4f66-a359-524a9dcc918d)
